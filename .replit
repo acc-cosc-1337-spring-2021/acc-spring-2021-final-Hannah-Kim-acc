@@ -1,1 +1,2 @@
 language = "cpp"
+run="export CC=clang; export CXX=clang++; mkdir -p ../build; cd ../build; cmake ../acc-spring-2021-final-Hannah-Kim-acc/; make; cd test; ./craps_tests -s"
