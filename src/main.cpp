@@ -1,12 +1,10 @@
 #include "die.h"
+#include "roll.h"
 
 #include<iostream>
 
 int main() 
 {
-  Die die;
-  die.roll();
-
-
+  
 	return 0;
 }

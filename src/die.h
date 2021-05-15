@@ -3,7 +3,6 @@
 #define DIE_H
 
 
-
 class Die
 {
   public:
@@ -11,7 +10,7 @@ class Die
   int rolled_value()const{return roll_value;}
 
   private:
-
+  
   int roll_value;
   int sides{6};
 
